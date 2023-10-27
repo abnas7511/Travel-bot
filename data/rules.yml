@@ -1,0 +1,44 @@
+version: "3.1"
+
+rules:
+- rule: respond to greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: handle bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: provide recommendation
+  steps:
+  - intent: request_recommendation
+  - action: utter_ask_preferences
+
+- rule: handle feedback
+  steps:
+  - intent: provide_feedback
+  - action: utter_thank_you
+
+- rule: handle preferences
+  steps:
+  - intent: provide_preferences
+  - action: utter_recommend_destinations
+  - action: utter_recommend_activities
+
+- rule: handle mood
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- rule: handle unhappy mood
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
