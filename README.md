@@ -1,4 +1,4 @@
-##Travel-Recommendation Chat
+## Travel-Recommendation Chat
 A simple travel chatbot built using Rasa, capable of providing travel recommendations and handling user preferences.
 
 ## Description
