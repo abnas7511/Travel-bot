@@ -1,11 +1,11 @@
-```markdown
-# Travel Chatbot
-
+##Travel-Recommendation Chat
 A simple travel chatbot built using Rasa, capable of providing travel recommendations and handling user preferences.
 
 ## Description
-
 This chatbot is designed to assist users in finding travel destinations and activities based on their preferences and budget. It can handle various user inputs, provide recommendations, and respond to user feedback.
+
+
+```markdown
 
 ## Installation
 
